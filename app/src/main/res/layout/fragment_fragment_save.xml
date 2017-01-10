@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pallefire.b_34viewpagerwithdatabase.FragmentSave">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter the student Name"
+        android:id="@+id/et1"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter the student Name"
+        android:id="@+id/et2"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter the student Name"
+        android:id="@+id/et3"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:id="@+id/bt1"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+</LinearLayout>
